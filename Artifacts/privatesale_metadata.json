@@ -1,0 +1,44 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ico/TokenPrivateSale.sol": "privatesale"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ico/TokenPrivateSale.sol": {
+			"keccak256": "0xbd4a31fdf96dac671282b66e4aa2414ef53b40e18b7fde1db1c310ab92b8525f",
+			"urls": [
+				"bzz-raw://7142e28629bb62a721d6e9962eb8f7ecef0bd1ba2166c76f4a26a501a961d285",
+				"dweb:/ipfs/QmczHHE1uXVLGKYigqvUAEumyHFDmawaQBeuBrP2FTRVNZ"
+			]
+		}
+	},
+	"version": 1
+}

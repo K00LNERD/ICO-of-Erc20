@@ -1,0 +1,111 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_token",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "claim",
+				"outputs": [],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "addr",
+						"type": "address"
+					}
+				],
+				"name": "registerAsColleague",
+				"outputs": [],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "addr",
+						"type": "address"
+					}
+				],
+				"name": "registerAsFamily",
+				"outputs": [],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "addr",
+						"type": "address"
+					}
+				],
+				"name": "registerAsFriends",
+				"outputs": [],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ico/TokenPrivateSale.sol": "privateSale"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ico/Copy_Ownable.sol": {
+			"keccak256": "0x747658f222384467f5235f2979cf6e1cfcdbe2a202a7a5b82930e7b2175baa22",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c15ffa9d919606a78071df564d4254f6a0bb8926263484d8b8c47771c7b4e33e",
+				"dweb:/ipfs/QmRi9Xji5gv3DcowbN3CSPRmi3qzYHpSjgfuNGvRDjVMoy"
+			]
+		},
+		"ico/TokenPrivateSale.sol": {
+			"keccak256": "0xb6834b2b27c270d925b62c33cefd5cd4549b92c1fb5124fd3382cdc8d2c2ab59",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c26d0c21c92a6bdbfdbb186c9a86e937f5ea10fd73ea53a988c18344336d5e07",
+				"dweb:/ipfs/QmWuss26TVjAsKevWCrAMr8qb7awcPUhm2o6C9dSShTg66"
+			]
+		}
+	},
+	"version": 1
+}
