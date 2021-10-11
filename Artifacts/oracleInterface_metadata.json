@@ -1,0 +1,88 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "decimals",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "latestAnswer",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ico/TokenPublicSale.sol": "oracleInterface"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ico/Copy_Ownable.sol": {
+			"keccak256": "0x747658f222384467f5235f2979cf6e1cfcdbe2a202a7a5b82930e7b2175baa22",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c15ffa9d919606a78071df564d4254f6a0bb8926263484d8b8c47771c7b4e33e",
+				"dweb:/ipfs/QmRi9Xji5gv3DcowbN3CSPRmi3qzYHpSjgfuNGvRDjVMoy"
+			]
+		},
+		"ico/TokenPublicSale.sol": {
+			"keccak256": "0xfb59dcb75ce8888a1718d83b3b0763ac1f5b4445ff5345a38e07201355bc8b0b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ce2a6296f24f32ab3336e3ed0351f70beb230898934d6dc7cba69513813789be",
+				"dweb:/ipfs/QmfVdA6VX7ui724K7z5mwHH3E3uGJjZNmdBn9rPVJRSCbF"
+			]
+		},
+		"ico/transferhelper.sol": {
+			"keccak256": "0x948fd34df559a028c2433a79f4d75d921b49b09d813a119863ec025e50fd9b42",
+			"license": "GPL-3.0-or-later",
+			"urls": [
+				"bzz-raw://cd6911d71aa0aacc0f6c93a20b589387e1bf1fa3835ba5a1cf4653a013a51d4c",
+				"dweb:/ipfs/QmRBaQ5vcKyLsLQkmDrAbcaRkGUUz4ee4YnNK4MGdk8dKs"
+			]
+		}
+	},
+	"version": 1
+}
